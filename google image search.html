@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Kobe's Google Image Search</title>
+	<style>
+	body{
+		background-color: white;
+		opacity:0.75;
+		
+		}
+
+	
+
+	img{
+		color:yellow;
+		height: 275px;
+		width: 50%;
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+		border-width: 5px;   
+		border-color: yellow;
+		border-style: solid;
+		opacity: 0.6;
+  		
+		}
+
+	
+	.google_div{
+		position: absolute;
+		width: 300px;
+		height: 300px;
+		top:55%;
+		left:40%;
+		margin-top: -55px;
+		margin-left: -40px;
+		}
+	.google_form{
+		width: 300px;
+		height: 300px;
+		border-radius: 10px;
+		margin: 0;
+		padding: 0;
+		opacity: 0.75;
+		}
+	
+
+	.google_form:hover{
+
+		opacity: 1.0;	
+		
+
+			}
+	
+	#wrapper {
+  		height: 100px;
+  		width: 500px;
+		}
+
+
+	.button {
+ 
+  		font-size: 10px;
+  		cursor: pointer;
+  		text-align: center;
+  		text-decoration: none;
+  		outline: none;
+  		color: #fff;
+  		background-color: yellow;;
+		color: purple;
+		opacity: 0.75;
+		}
+
+	.button:hover {
+			background-color: white;
+			opacity: 1.0;
+			background: url("/Users/marcus/Downloads/lakers logo.jpeg")
+			}
+
+
+	.button:active {
+  		background-color: purple;
+  		box-shadow: 0 10px #666;
+  		transform: translateY(4px);
+		}
+
+
+	.gsearch{
+		position:absolute;
+		top:32.9%;
+		left:62%;
+		margin-top: -55px;
+		margin-left: -66px;
+
+		}
+
+	.container{
+
+		position: relative;
+		text-align:center;
+		margin-bottom: 50px;
+		}
+
+
+	.kobetext{
+		
+		position: absolute;
+		top: 50%;
+		left: 49%;
+		margin-top: -50px;
+		margin-left: -49px;
+		color: White;
+		text-shadow: 3px 2px Purple;
+		font-size: 50px;
+		}
+		
+
+		
+
+
+
+</style>
+</head>
+
+<!-- BUTTONS-->
+
+
+
+	<div align =  "right">
+		<a href='google search.html'> 
+			<button class = "button" >
+				Google Home Page
+			</button>
+		</a>
+		
+		<a href='google advanced search.html'> 
+			<button class = "button" >
+				Google Advanced Search
+			</button>
+		</a>
+	<div>
+
+
+<!-- KOBE -->
+
+	
+	<div class = "container">
+		<img src ="/Users/marcus/Downloads/kobe.jpg" alt = "Mamba">
+		<div class = "kobetext">Images</div>
+		<div> RIP MAMBA </div>
+	</div>
+
+<body>
+
+<!-- SEARCH -->
+ 
+      <div class = "google_div">
+	
+		<form class = "google_form" class = "button" method = "GET" name = "f" action= "https://www.google.com/search">
+			<input name="hl" value="en" type="hidden"><input name="tbm" value="isch" type="hidden"><input name="source" type="hidden" value="hp"><input name="biw" type="hidden" 				value="985"><input name="bih" type="hidden" value="634"><input value="f2Y_XrPUCIHF0PEP54Gv6Aw" name="ei" type="hidden"><input 									value="AAP1E1EAAAAAXj90j0YkdzXJ6E7cWHazGImYnB2MjfHt" disabled="true" name="iflsig" type="hidden">
+			
+			<input type="text" name="q" 
+				style = "border-radius: 15px; 
+				border: 3px solid purple; 
+				width: 350px;
+				height: 35px;" >
+		<div class = "gsearch">
+				<input class = "button" type="submit" value="Google Image Search">
+				
+		</div>
+
+		
+		</form>
+   	</div> 
+
+
+</body>
+     
+</html>
+
+

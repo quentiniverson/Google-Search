@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Advanced Search</title>
+	<style>
+	body{
+		background-color: white;
+		opacity: 0.55;
+		
+		}
+	input{
+		width: 100px;
+		
+		}
+
+	#google_div1{
+		position: absolute;
+		width: 300px;
+		height: 300px;
+		top:20%;
+		left:15%;
+		margin-top: -20px;
+		margin-left: -15px;
+		}
+
+
+	#div_pos1 {
+		position: absolute;
+		top: 16.6%;
+		left: -40%:
+		margin-top: -16.5px;
+		margin-left: 40px;
+
+		}
+	#google_div2{
+		position: absolute;
+		width: 300px;
+		height: 300px;
+		top:40%;
+		left:15%;
+		margin-top: -40px;
+		margin-left: -15px;
+		}
+
+
+	#div_pos2 {
+		position: absolute;
+		top: 33%;
+		left: -5%:
+		margin-top: -33px;
+		margin-left: 5px;
+
+		}
+	#google_div3{
+		position: absolute;
+		width: 300px;
+		height: 300px;
+		top:60%;
+		left:15%;
+		margin-top: -60px;
+		margin-left: -15px;
+		}
+	#div_pos3 {
+		position: absolute;
+		top: 50%;
+		left: -15%:
+		margin-top: 50px;
+		margin-left: 15px;
+
+		}
+	#google_div4{
+		position: absolute;
+		width: 300px;
+		height: 300px;
+		top:80%;
+		left:15%;
+		margin-top: -80px;
+		margin-left: -15px;
+		}
+	#div_pos4 {
+		position: absolute;
+		top: 67%;
+		left: -15%:
+		margin-top: 67px;
+		margin-left: 15px;
+
+		}
+	
+	
+	.div_color{
+
+		color:black;
+
+			}
+	.google_form{
+		width: 300px;
+		height: 300px;
+		border-radius: 10px;
+		margin: 0;
+		padding: 0;
+		opacity: 0.75;
+		}
+
+
+	.google_form:hover{
+
+		opacity: 1.0;	
+		
+
+			}
+
+	.button {
+ 
+  		font-size: 10px;
+  		cursor: pointer;
+  		text-align: center;
+  		text-decoration: none;
+  		outline: none;
+  		color: #fff;
+  		background-color: blue;
+		color: white;
+		opacity: 0.9;
+		}
+
+	.button:hover {
+
+			background-color: white;
+			opacity: 1.0;
+			color: purple;
+			}
+
+
+	.button:active {
+  		background-color: purple;
+  		box-shadow: 0 5px #666;
+  		transform: translateY(1px);
+		}
+
+	.adbutton {
+ 		position: relative;
+		top: 15%;
+		left: 250%;
+  		font-size: 10px;
+  		cursor: pointer;
+  		text-align: center;
+  		text-decoration: none;
+  		outline: none;
+  		color: #fff;
+  		background-color: blue;
+		color: white;
+		opacity: 0.9;
+		height: 10%;
+		width: 50%;
+		}
+	.headerpos { 
+	
+		text-align: left;
+		position: relative;
+		left: 5%;
+
+		}
+
+</style>
+</head>
+
+<!-- BUTTONS-->
+
+
+
+	<div align =  "right">
+		<a href='google search.html'> 
+			<button class = "button" >
+				Google Home Page
+			</button>
+		</a>
+		
+		<a href='google image search.html'> 
+			<button class = "button" >
+				Google Image Search
+			</button>
+		</a>
+	<div>
+
+
+
+
+<body>
+
+
+<!-- HEADER TEXT -->
+
+	
+<h1 class = "headerpos"> Advanced Search </h1>	
+
+<!-- SEARCH -->
+	<div id = "div_pos1">
+		<p class = "div_color"> all these words:</p>
+	</div>
+      <div id = "google_div1">
+		<form class = "google_form" class = "button"  action="https://google.com/search">
+			<input type="text" name="as_q" 
+				style = "border-radius: 15px; 
+				border: 3px solid blue; 
+				width: 350px;
+				height: 35px;" >
+
+		
+	
+   	</div>
+	<div id = "div_pos2">
+		<p class = "div_color"> this exact word or phrase:</p>
+	</div>
+      <div id = "google_div2">
+		
+		
+            		<input type="text" name="as_epq" 
+				style = "border-radius: 15px; 
+				border: 3px solid blue; 
+				width: 350px;
+				height: 35px;" >
+
+		
+
+		
+   	</div> 
+	<div id = "div_pos3">
+		<p class = "div_color">any of these words:</p>
+	</div>
+      <div id = "google_div3">
+		
+            		<input type="text" name="as_oq" 
+				style = "border-radius: 15px; 
+				border: 3px solid blue; 
+				width: 350px;
+				height: 35px;" >
+
+		
+	
+   	</div>
+	<div id = "div_pos4">
+		<p class = "div_color">none of these words:</p>
+	</div>
+      
+	<div id = "google_div4">
+		
+            		<input type="text" name="as_eq" 
+				style = "border-radius: 15px; 
+				border: 3px solid blue; 
+				width: 350px;
+				height: 35px;" >
+		
+		<input class = "adbutton" type="submit" value="Advanced Search">
+			
+		</form>
+   	</div> 
+
+
+</body>
+     
+</html>
+
+
